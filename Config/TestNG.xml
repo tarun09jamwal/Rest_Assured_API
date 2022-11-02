@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+    <test name="FirstRestAssured">
+        <classes>
+            <class name="FirstRestAssuredProject"/>
+        </classes>
+    </test>
+    <test name="Testing assert method">
+        <classes>
+            <class name="Rest_Assert"/>
+        </classes>
+    </test>
+    <test name="Deleting User">
+        <classes>
+            <class name="Rest_Del"></class>
+        </classes>
+    </test>
+    <test name="Patch Request">
+        <classes>
+            <class name="Rest_Patch"></class>
+        </classes>
+    </test>
+    <test name="Post Request">
+        <classes>
+            <class name="Rest_Post"></class>
+        </classes>
+    </test>
+    <test name="Put Request">
+        <classes>
+            <class name="Rest_Put"></class>
+        </classes>
+    </test>
+</suite>
